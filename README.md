@@ -34,6 +34,11 @@ In the next step, we are using the Chrank Nicolson method (of order 2 in space a
   :-------------------------:|:-------------------------:
  <img src="https://im.ezgif.com/tmp/ezgif-1-5ad29534ab6f.gif" width="320" height="300" />  |  <img src="https://github.com/mathmodelclub/River-Polution/blob/Developer/Pics/Cont.PNG" width="320" height="300" />
  
+ ### Environmental Impact
+ We are analyzing the impact to the environment in the case the chemical plant leaks toxides along the river. In particular, we are interested in the number of dead fish along the river. Two different measures are taken into account:
+ 
+ Total pesticide concentration | Maximal pesticide concentration
+ 
   
   
   
