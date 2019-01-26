@@ -37,7 +37,24 @@ In the next step, we are using the Chrank Nicolson method (of order 2 in space a
  ### Environmental Impact
  We are analyzing the impact to the environment in the case the chemical plant leaks toxides along the river. In particular, we are interested in the number of dead fish along the river. Two different measures are taken into account:
  
- Total pesticide concentration | Maximal pesticide concentration
+ * **Maximal pesticide concentration:** The peak value of toxics exposure at every point in space over time.
+ 
+ * **Total pesticide concentration:** The totally accumulated toxics at every point in space over time.
+ 
+ In mathematical expressions the two measures read as:
+ 
+ Maximal pesticide concentration | Total pesticide concentration  
+ :-------------------------:|:-------------------------:
+ <img src="https://github.com/mathmodelclub/River-Polution/blob/Developer/Pics/umax.PNG" width="180" height="80" /> | <img src="https://github.com/mathmodelclub/River-Polution/blob/Developer/Pics/utot.PNG" width="165" height="65" /> 
+ 
+ If either one of these measures exeeds a certain threshold value p the fish in the respecitive area has taken in too much toxics and will die. For a variation in the river velocity and a uniformly distributed fish density of rho = 1 [1/m] we find the following models:
+ 
+  Dead fish by maximal pesticide measurement | Dead fish by total pesticide exposure measurement  
+ :-------------------------:|:-------------------------:
+  <img src="https://github.com/mathmodelclub/River-Polution/blob/Developer/Pics/Umax.gif" width="420" height="280" /> | <img src="https://github.com/mathmodelclub/River-Polution/blob/Developer/Pics/Utot.gif" width="420" height="280" /> 
+ 
+ 
+ 
  
   
   
